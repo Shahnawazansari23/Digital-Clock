@@ -1,0 +1,30 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(35, 161, 119);
+}
+
+.container{
+    color: #fff;
+    /*background: #020800; */
+    font-family: 'Ubuntu', sans-serif;
+    /* font-weight: 600; */
+    border: 5px solid #fff;
+    margin: 10px 20px;
+    padding: 20px 25px;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+}
+
+ .container:hover{
+    background: #fff;
+    color: black;
+    opacity: 70%;
+    border: 5px solid black;
+ }
+ 
